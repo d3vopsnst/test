@@ -1,4 +1,6 @@
-﻿Param (
+﻿#This is other change for testing Jenkins
+
+Param (
     [CmdletBinding()]
     [string]$LogName = (($MyInvocation.MyCommand.Path | split-path -Parent) + '\' + ((Get-Date -Format "yyy-MM-dd") + "_Migration.log")),
     

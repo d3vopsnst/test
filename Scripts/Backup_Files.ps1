@@ -1,4 +1,5 @@
-# This is a change just to test github with jenkins 
+# This is a change just to test github with jenkins
+# This is other change just to test Jenkins on-premise
 Param (
     [CmdletBinding()]
     [string]$LogName = (($MyInvocation.MyCommand.Path | split-path -Parent) + '\' + ((Get-Date -Format "yyy-MM-dd") + "_Migration.log")),
